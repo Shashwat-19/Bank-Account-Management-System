@@ -1,6 +1,3 @@
-
-
-```markdown
 # Bank Management System
 
 A simple console-based Bank Management System written in C++ to handle basic banking operations such as creating accounts, depositing and withdrawing money, checking balances, and viewing transaction history.
