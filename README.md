@@ -100,16 +100,3 @@ A simple console-based Bank Management System written in C++ to handle basic ban
 Contributions are welcome! If you have suggestions or improvements, feel free to fork the repository and submit a pull request.
 
 ---
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-## Acknowledgments
-
-This project was created for educational purposes and as a demonstration of C++ programming concepts.
-```
-
-Feel free to adapt this README to include any additional features or specific requirements you have!
