@@ -4,7 +4,7 @@ A simple console-based Bank Management System written in C++ to handle basic ban
 
 ---
 
-## Features
+## ✨ Features
 
 - **Create Account**: Users can create a new bank account with a unique account number, account holder's name, and password.
 - **Deposit Money**: Allows users to deposit money into their account.
@@ -16,87 +16,58 @@ A simple console-based Bank Management System written in C++ to handle basic ban
 
 ---
 
-## Code Highlights
+## 🚀 How to Run
 
-- **Object-Oriented Design**:
-  - `BankAccount` class for individual accounts.
-  - `Bank` class to manage multiple accounts using a `std::map`.
-- **Error Handling**: 
-  - Prevents invalid operations like duplicate account numbers or invalid deposits/withdrawals.
-  - Authentication for balance checks and transaction history.
-- **User-Friendly Console Interface**:
-  - Menu-driven interface for easy navigation.
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Shashwat-19/BankManagement.git
+   cd BankManagement
+   ```
 
----
-
-## How to Run
-
-1. **Compile the Code**:
-   Open a terminal and navigate to the directory containing the source code. Run the following command:
+2. **Compile the Code**:
    ```bash
    g++ -o bank_system main.cpp
    ```
 
-2. **Run the Program**:
-   Execute the compiled file:
+3. **Run the Program**:
    ```bash
    ./bank_system
    ```
 
-3. **Follow On-Screen Instructions**:
+4. **Follow On-Screen Instructions**:
    The program will guide you through its features using a menu-driven interface.
 
 ---
 
-## Example Usage
+## 🗃️ How It Works
 
-### Create an Account
-- **Input**:
-  ```
-  Enter account number: 12345
-  Enter account holder name: John Doe
-  Set a password: secure123
-  ```
-- **Output**:
-  ```
-  Account created successfully.
-  ```
-
-### Deposit Money
-- **Input**:
-  ```
-  Enter account number: 12345
-  Enter deposit amount: $500
-  ```
-- **Output**:
-  ```
-  Deposited $500 into account 12345.
-  ```
-
-### Check Balance
-- **Input**:
-  ```
-  Enter account number: 12345
-  Enter password: secure123
-  ```
-- **Output**:
-  ```
-  Account 12345 has a balance of $500.
-  ```
+1. **Account Management**: Users create and manage accounts with unique account numbers and secure passwords.
+2. **Transaction Handling**: Deposit, withdraw, and view transaction history with proper authentication.
+3. **Data Security**: Password-protected accounts ensure data integrity and privacy.
+4. **Error Prevention**: Invalid operations like duplicate account numbers or unauthorized withdrawals are handled gracefully.
 
 ---
 
-## Future Enhancements
+## 📚 Tech Stack
 
-- **Interest Calculation**: Add functionality to calculate interest on account balances.
-- **Transfer Funds**: Allow money transfers between accounts.
-- **Enhanced Security**: Implement better encryption for passwords.
-- **Graphical User Interface (GUI)**: Create a GUI version for better user experience.
+- **Language**: C++ 🆚
+- **Libraries**: Standard Template Library (STL) for maps and strings.
 
 ---
 
-## Contributing
+## 🔒 License
 
-Contributions are welcome! If you have suggestions or improvements, feel free to fork the repository and submit a pull request.
+Copyright (C) 2023-2024 Shashwat  
+This project is Licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
+
+## 📩 Contact
+
+**Shashwat**  
+BCA (Hons), Christ University, Bangalore  
+[GitHub](https://github.com/Shashwat-19) | [LinkedIn](https://www.linkedin.com/in/shashwatk1956/) | [Email me](shashwat1956@gmail.com)  
+
+---
+
+
